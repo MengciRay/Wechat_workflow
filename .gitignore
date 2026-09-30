@@ -1,0 +1,33 @@
+# Local credentials and environment overrides
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Literature and generated content (including mixed-case PDF extensions)
+*.[pP][dD][fF]
+inbox/
+output/
+*.source.md
+*.wechat.html
+*.draft.json
+
+# Local Python environments, caches and logs
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
+
+# Local editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
